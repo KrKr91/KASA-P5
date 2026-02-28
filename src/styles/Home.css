@@ -1,7 +1,7 @@
 .home__gallery {
     display: grid;
-    grid-template-columns: repeat(3, 1fr); /* 3 colonnes de taille égale ! */
-    gap: 50px; /* L'espacement de la maquette */
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 50px; 
     background-color: #F6F6F6;
     border-radius: 25px;
     padding: 50px;
