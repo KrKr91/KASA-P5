@@ -1,0 +1,7 @@
+.main-container {
+    max-width: 1240px; /* La largeur du contenu de la maquette */
+    margin: 0 auto;    /* Centre la boîte au milieu de l'écran */
+    padding: 0 20px;   /* Petite marge de sécurité pour les écrans plus petits */
+    min-height: 100vh; /* Permet de pousser le footer vers le bas si la page est vide */
+}
+

@@ -1,0 +1,9 @@
+.home__gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 colonnes de taille égale ! */
+    gap: 50px; /* L'espacement de la maquette */
+    background-color: #F6F6F6;
+    border-radius: 25px;
+    padding: 50px;
+}
+
