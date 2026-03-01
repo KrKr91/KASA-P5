@@ -1,0 +1,107 @@
+.logement {
+    display: flex;
+    flex-direction: column;
+}
+
+.logement__content {
+    display: flex;
+    justify-content: space-between; 
+    margin-bottom: 24px;
+}
+
+/* gauche */
+.logement__info {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.logement__title {
+    color: #FF6060;
+    font-size: 36px;
+    font-weight: 500;
+    margin: 0;
+}
+
+.logement__location {
+    color: #000000;
+    font-size: 18px;
+    font-weight: 500;
+    margin: 0;
+}
+
+.logement__tags {
+    display: flex;
+    flex-wrap: wrap; 
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.logement__tag {
+    background-color: #FF6060;
+    color: white;
+    font-size: 14px;
+    font-weight: 700;
+    padding: 5px 20px;
+    border-radius: 10px;
+    min-width: 115px;
+    text-align: center;
+}
+
+/* droite */
+.logement__host-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end; 
+    justify-content: space-between;
+}
+
+.logement__host {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.logement__host-name {
+    color: #FF6060;
+    font-size: 18px;
+    font-weight: 500;
+    text-align: right;
+}
+
+.logement__host-picture {
+    width: 64px;
+    height: 64px;
+    border-radius: 50%; 
+    object-fit: cover;
+}
+
+.logement__rating {
+    display: flex;
+    gap: 5px;
+}
+
+.logement__star {
+    width: 24px;
+    height: 24px;
+}
+
+/* collapse des logements */
+.logement__collapses {
+    display: flex;
+    justify-content: space-between;
+    gap: 40px; 
+    margin-top: 24px;
+    margin-bottom: 50px;
+}
+
+.logement__collapse-item {
+    flex: 1; /
+}
+
+.logement__equipments-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
