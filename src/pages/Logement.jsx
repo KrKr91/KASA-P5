@@ -3,7 +3,6 @@ import logements from '../data/logements.json'
 import Slideshow from '../components/Slideshow'
 import Collapse from '../components/Collapse' 
 import '../styles/Logement.scss'
-
 import starActive from '../assets/star-active.png'
 import starInactive from '../assets/star-inactive.png'
 
