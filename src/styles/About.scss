@@ -1,0 +1,17 @@
+@import './mixins';
+
+.about {
+    &__container {
+        width: 75%;
+        margin: 0 auto; 
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        margin-bottom: 50px;
+
+        @include mobile {
+            width: 100%; 
+            gap: 20px;
+        }
+    }
+}

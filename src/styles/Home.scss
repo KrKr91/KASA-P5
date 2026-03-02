@@ -1,0 +1,20 @@
+@import './variables';
+@import './mixins'; 
+
+.home {
+    &__gallery {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr); 
+        gap: 50px; 
+        background-color: $color-bg-light;
+        border-radius: 25px;
+        padding: 50px;
+
+        @include mobile {
+            grid-template-columns: 1fr; 
+            background-color: transparent; 
+            padding: 0;
+            gap: 20px;
+        }
+    }
+}

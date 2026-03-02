@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap');
+@import './styles/mixins'; 
+
+* {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.main-container {
+    max-width: 1240px; 
+    margin: 0 auto;    
+    padding: 0 20px;   
+    min-height: 80vh; 
+
+    @include mobile {
+        padding: 0 15px; 
+        min-height: auto; 
+        margin-bottom: 20px;
+    }
+}
