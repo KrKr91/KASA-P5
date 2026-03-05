@@ -1,7 +1,6 @@
 import Banner from '../components/Banner.jsx'
 import Collapse from '../components/Collapse.jsx'
 import imgAboutBanner from '../assets/about-banner.png'
-import '../styles/About.scss' 
 
 function About() {
     const aboutData = [

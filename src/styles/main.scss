@@ -1,0 +1,22 @@
+// UTILS
+@import './utils/variables';
+@import './utils/mixins';
+
+// BASE
+@import './base/index';
+
+// LAYOUTS
+@import './layouts/header';
+@import './layouts/footer';
+
+//COMPONENTS
+@import './components/banner';
+@import './components/card';
+@import './components/collapse';
+@import './components/slideshow';
+
+// PAGES
+@import './pages/home';
+@import './pages/about';
+@import './pages/logement';
+@import './pages/error';
